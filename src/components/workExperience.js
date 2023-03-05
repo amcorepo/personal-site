@@ -9,11 +9,10 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent, {
   timelineOppositeContentClasses,
 } from '@mui/lab/TimelineOppositeContent';
-
 const experienceData = data.experience;
 
 
-function Experience({company, position, start_date, end_date, image, responsibilities}) {
+function Experience({company, position, start_date, end_date, image, location, responsibilities}) {
     return (
 
   <Timeline
@@ -35,11 +34,12 @@ function Experience({company, position, start_date, end_date, image, responsibil
               </TimelineSeparator>
               <TimelineContent>
                 <h4>{company}</h4>
-                <h5>{position}</h5>
+                <h5 style={{fontStyle: 'italic'}}>{position}</h5>
+                <p style={{fontSize:'0.7em'}}>{location}</p>
                 <ul style={{marginTop: "10px"}}>
                 {responsibilities.map((responsibility, index) => (
-                  <Grid item xs={12} sx={{fontSize: {xs: '0.75rem', xl: '1rem'}}}>
-                  <li key={index}>{responsibility}</li>
+                  <Grid item key={index} sx={{fontSize: {xs: '0.75rem', xl: '1rem'}}}>
+                  <li>{responsibility}</li>
                   </Grid>
                 ))}
               </ul>
@@ -56,13 +56,13 @@ function WorkExperience() {
     return (
         <>
       
-        <h3 style={{marginBottom: '1em'}}><i class="fa-solid fa-briefcase" style={{marginRight:"10px"}}></i>Work Experience</h3>
-      
+        <h3 style={{marginBottom: '1em'}}><i className="fa-solid fa-briefcase" style={{marginRight:"10px"}}></i>Work Experience</h3>
         {experienceData.map((experience, index) => (
-            <Experience key={index} company={experience.company} position={experience.position} start_date={experience.start_date} end_date={experience.end_date} image={experience.image} responsibilities={experience.responsibilities} />
+          <Grid item key={index}>
+            <Experience company={experience.company} position={experience.position} start_date={experience.start_date} end_date={experience.end_date} image={experience.image} responsibilities={experience.responsibilities} location={experience.location} />
+          </Grid>
  
         ))}
-       
         </>
     )
 }

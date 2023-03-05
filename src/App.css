@@ -36,7 +36,8 @@ img {box-shadow: 0px 1px 1px 0px #000;}
 h3 {font-size:1.5em; font-weight:700;}
 #education .hehe {font-style:italic}
 #title h2 {font-weight:300;}
-.title {font-size:1.5em;}
+#title {margin-bottom:1em;}
+.title {font-size:1.2em;}
 .css-1btsylr-MuiTimeline-root .MuiTimelineOppositeContent-root, .css-1btsylr-MuiTimeline-root {padding-left:0 !important;}
 .sidecat {opacity:0;animation: sidebar-enter 0.5s ease-out forwards }
 .experience {
@@ -55,7 +56,7 @@ h3 {font-size:1.5em; font-weight:700;}
 #personal.sidecat {animation-delay: 0.02s}
 #education.sidecat {animation-delay: 0.04s}
 #skills.sidecat {animation-delay: 0.06  s}
-
+a {margin-right:0.5em}
 
 
 @keyframes sidebar-enter {

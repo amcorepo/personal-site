@@ -4,6 +4,7 @@ import MySkills from './skills.js';
 import MyEducation from './education.js';
 import MyPersonal from './personal.js';
 
+
 function SideContent() { 
   return (
     
