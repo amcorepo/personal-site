@@ -11,10 +11,10 @@ function MyPersonal() {
     return(
     <>
     <Grid container item spacing={2}  sx={{alignItems: 'center'}} direction='row' id="personal" className="sidecat" >
-        <Grid item xs={12} sm={3} md={12} lg={12} xl={5} >
+        <Grid item xs={6} sm={3} md={12} lg={12} xl={5} >
             <img src={amos} style={{maxWidth: '100%', borderRadius: '100%'}} alt="Amos Cohen"/>
         </Grid>
-        <Grid container direction='column' item xs={12} sm={9} md={12} xl={7} id="intro">
+        <Grid container direction='column' item xs={6} sm={9} md={12} xl={7} id="intro">
             <Grid item><h1>{personalData.name}</h1></Grid>
             <Grid item id="title">
             <Typewriter

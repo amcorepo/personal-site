@@ -29,12 +29,14 @@ function Experience({company, position, start_date, end_date, image, responsibil
             </TimelineOppositeContent>
               <TimelineSeparator>     
                   <img src={image} alt="" width="50px" style={{borderRadius: '100%'}}/>
-                <TimelineConnector />
+                <TimelineConnector
+                sx={{marginTop: "10px", backgroundColor: "rgba(0,0,0, 0.4)"}}
+                />
               </TimelineSeparator>
               <TimelineContent>
                 <h4>{company}</h4>
                 <h5>{position}</h5>
-                <ul>
+                <ul style={{marginTop: "10px"}}>
                 {responsibilities.map((responsibility, index) => (
                   <Grid item xs={12} sx={{fontSize: {xs: '0.75rem', xl: '1rem'}}}>
                   <li key={index}>{responsibility}</li>
@@ -53,7 +55,9 @@ function Experience({company, position, start_date, end_date, image, responsibil
 function WorkExperience() {
     return (
         <>
-        <h3 style={{marginBottom: '1em'}}>Work Experience</h3>
+        <Grid item>
+        <h3 style={{marginBottom: '1em'}}><i class="fa-solid fa-briefcase" style={{marginRight:"10px"}}></i>Work Experience</h3>
+        </Grid>
         <Grid container item xs={12} md={10} direction="column">
         {experienceData.map((experience, index) => (
         <Grid item xs={12} key={index} className="experience">

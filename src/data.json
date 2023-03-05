@@ -45,7 +45,17 @@
             "name": "Figma",
             "icon": "fa-brands fa-figma",
             "level": 85
-        }
+        },
+        {
+          "name": "Adobe CC",
+          "icon": "fa-solid fa-palette",
+          "level": 85
+      },
+      {
+        "name": "Github",
+        "icon": "fa-brands fa-github",
+        "level": 85
+    }
     ],
     "experience": [
         {

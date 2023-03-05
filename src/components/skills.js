@@ -8,15 +8,12 @@ const skillData = data.skills;
 
 function Skill({ name, level, iconClass }) {
     return (
-      <Grid container alignItems="center" sx={{marginBottom:'10px'}}>
-             <Grid item xs={1}>
-             <i className={iconClass}></i>
+      <Grid container spacing={0.5} sx={{marginBottom:'10px'}}>
+             <Grid item>
+             <i className={iconClass} style={{marginRight:'5px'}}></i>
             </Grid>
-            <Grid item xs={3}>
-            {name}
-            </Grid>
-            <Grid item xs={8}>
-            <LinearProgress variant="determinate" value={level} sx={{backgroundColor: 'white', height: '10px', borderRadius: '10px', '& .MuiLinearProgress-bar': { backgroundColor: '#CDCD40' }}}/>
+            <Grid item>
+            <p>{name}</p>
             </Grid>
         </Grid>
       
@@ -24,17 +21,18 @@ function Skill({ name, level, iconClass }) {
   }
 function MySkills() {
     return (
-        <>
-        
-        <Grid container id="skills" className="sidecat" >
+        <>  
+        <Grid container id="skills" className="sidecat">
             <Grid item xs={12}>
-                <h3 style={{marginBottom: '10px'}}>Skills</h3>
+            <h3 style={{marginBottom: '10px'}}><i class="fa-solid fa-certificate" style={{marginRight:"10px"}}></i>Skills</h3>
             </Grid>
-        {skillData.map((skill, index) => (
-        <Grid item xs={12} sm={7} md={12} key={index}>
-            <Skill name={skill.name} level={skill.level} iconClass={skill.icon} />
-        </Grid>
-        ))}
+            <Grid container spacing={2} item>
+                {skillData.map((skill, index) => (
+                    <Grid item >
+                        <Skill key={index} name={skill.name} level={skill.level} iconClass={skill.icon} />
+                    </Grid>
+                ))}
+            </Grid>
         </Grid>
         </>
     )

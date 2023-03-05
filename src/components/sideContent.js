@@ -14,7 +14,7 @@ function SideContent() {
         <Grid container spacing={1} item direction="column" id="education" className="sidecat">
             <MyEducation/>
         </Grid>
-        <Grid container item direction="column" spacing={0.5}>
+        <Grid container item>
             <MySkills/>
         </Grid>
     </Grid>
