@@ -28,7 +28,7 @@ function MySkills() {
         
         <Grid container id="skills" className="sidecat" >
             <Grid item xs={12}>
-                <h2 style={{marginBottom: '10px'}}>Skills</h2>
+                <h3 style={{marginBottom: '10px'}}>Skills</h3>
             </Grid>
         {skillData.map((skill, index) => (
         <Grid item xs={12} sm={7} md={12} key={index}>

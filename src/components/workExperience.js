@@ -36,7 +36,9 @@ function Experience({company, position, start_date, end_date, image, responsibil
                 <h5>{position}</h5>
                 <ul>
                 {responsibilities.map((responsibility, index) => (
+                  <Grid item xs={12} sx={{fontSize: {xs: '0.75rem', xl: '1rem'}}}>
                   <li key={index}>{responsibility}</li>
+                  </Grid>
                 ))}
               </ul>
               </TimelineContent>
