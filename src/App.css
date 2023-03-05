@@ -30,7 +30,7 @@ header, body {
 .App-link {
   color: #61dafb;
 }
-
+li {font-size: 0.7em;}
 h1 {line-height:1;}
 ul {padding-left:0;}
 #intro h1, #intro h2 {white-space:nowrap;}

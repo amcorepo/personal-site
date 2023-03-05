@@ -19,7 +19,7 @@ function MyPersonal() {
             <Grid item id="title">
             <Typewriter
                 options={{
-                    strings: ['Co-Founder','Frontend Dev', 'Problem Solver', 'Creator', 'Product Manager'],
+                    strings: ['Co-Founder','Frontend', 'UX', 'Problem Solver', 'Creator', 'Product Manager'],
                     autoStart: true,
                     loop: true,
                     wrapperClassName: 'title',
