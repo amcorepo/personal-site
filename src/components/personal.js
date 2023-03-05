@@ -12,7 +12,7 @@ function MyPersonal() {
     <>
     <Grid container item spacing={2}  sx={{alignItems: 'center'}} direction='row' id="personal" className="sidecat" >
         <Grid item xs={12} sm={3} md={12} lg={12} xl={5} >
-            <img src={amos} style={{maxWidth: '150px', borderRadius: '100%'}} alt="Amos Cohen"/>
+            <img src={amos} style={{maxWidth: '100%', borderRadius: '100%'}} alt="Amos Cohen"/>
         </Grid>
         <Grid container direction='column' item xs={12} sm={9} md={12} xl={7} id="intro">
             <Grid item><h1>{personalData.name}</h1></Grid>
