@@ -1,5 +1,8 @@
-.App {
-  text-align: center;
+
+
+
+header, body {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App-logo {
@@ -27,6 +30,52 @@
 .App-link {
   color: #61dafb;
 }
+
+h1 {line-height:1;}
+ul {padding-left:0;}
+#intro h1, #intro h2 {white-space:nowrap;}
+h3 {font-size:1.5em; font-weight:700;}
+#education .hehe {font-style:italic}
+#title h2 {font-weight:300;}
+.title {font-size:1.5em;}
+.css-1btsylr-MuiTimeline-root .MuiTimelineOppositeContent-root, .css-1btsylr-MuiTimeline-root {padding-left:0 !important;}
+.sidecat {opacity:0;animation: sidebar-enter 0.5s ease-out forwards }
+.experience {
+  animation: slide-down 1s ease forwards; opacity: 0; height:0;
+}
+
+.experience:nth-child(1) {animation-delay: 0.1s}
+.experience:nth-child(2) {animation-delay: 0.2s}
+.experience:nth-child(3) {animation-delay: 0.3s}
+.experience:nth-child(4) {animation-delay: 0.4s}
+.experience:nth-child(5) {animation-delay: 0.5s}
+.experience:nth-child(6) {animation-delay: 0.6s}
+
+#personal.sidecat {animation-delay: 0.02s}
+#education.sidecat {animation-delay: 0.04s}
+#skills.sidecat {animation-delay: 0.06  s}
+
+@keyframes sidebar-enter {
+  from {
+    opacity:0;
+    transform: translateX(-100%);
+  } to {
+    opacity:1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    visibility:hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility:visible;
+    opacity: 1;
+  }
+}
+
 
 @keyframes App-logo-spin {
   from {

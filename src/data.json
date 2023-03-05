@@ -1,0 +1,122 @@
+{
+    "personal": [
+        {
+            "name": "Amos Cohen",
+            "email": "john.smith@example.com",
+            "phone": "123-456-7890",
+            "address": "123 Main St, Anytown USA",
+            "title": "Product Manager",
+            "profile": "I am a driven product creator with diverse experience in engineering, design, and business. My track record includes solving complex problems and navigating technical challenges using logic and self-learning. I love cooking Middle Eastern food, listening to music, and playing CS:GO in my free time."
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Science",
+            "major": "Finance",
+            "minor": "Information Technology",
+            "university": "Syracuse University",
+            "duration": "2016-2020",
+            "gpa": 3.62,
+            "awards": "Magna Cum Laude"
+        }
+    ],
+    "skills": [
+        {
+            "name": "HTML",
+            "icon": "fa-brands fa-html5",
+            "level": 100
+        },
+        {
+            "name": "CSS",
+            "icon": "fa-brands fa-css3",
+            "level": 100
+        },
+        {
+            "name": "JavaScript",
+            "icon": "fa-brands fa-js",
+            "level": 90
+        },
+        {
+            "name": "SQL",
+            "icon": "fa-solid fa-database",
+            "level": 75
+        },
+        {
+            "name": "Figma",
+            "icon": "fa-brands fa-figma",
+            "level": 85
+        }
+    ],
+    "experience": [
+        {
+            "position": "Product Manager",
+            "company": "Deloitte Digital",
+            "start_date": "2020",
+            "end_date": "Present",
+            "image": "https://pbs.twimg.com/profile_images/743060708565258241/wisiWqIz_400x400.jpg",
+            "responsibilities": [
+                "Established enterprise experience as a Product Manager for Deloitte Digital by creating proprietary products for the firm that generate revenue or save costs",
+                "Led a 12-person cross-functional team in delivering a SaaS product, helping our clients adapt to new data protection regulations while maintaining advertising returns, resulting in a new revenue stream for Deloitte",
+                "Led a 10-person team to transition an internal product (automated software meant to amplify the way we view our clients’ digital assets and accelerate response time) from proof-of-concept to MVP in 3 months. As a result, we delivered reliable and consistent actionable insights and increased the product's internal usage, being involved in millions of dollars worth of revenue",
+                "Owned product in an agile workstream for a healthcare Salesforce implementation project."
+            ]
+        },
+        {
+          "position": "Co-Founder",
+          "company": "quad",
+          "start_date": "2016",
+          "end_date": "2020",
+          "image": "https://media.licdn.com/dms/image/C4D0BAQGuhUcYnbsE6A/company-logo_200_200/0/1596358339384?e=1685577600&v=beta&t=jxYEcRRJrDKGHGLnFR_IjBohnonsf8szmjBkAHCf8lw",
+          "responsibilities": [
+              "Managed end-to-end delivery of web services for 20+ clients in Europe and Israel, from concept to production",
+              "Designed and developed 12+ high-performing ecommerce experiences for businesses of various scales, using WordPress or Shopify to adapt to changing demand for custom solutions",
+              "Championed a user-centric approach to web development, resulting in a 20% reduction in cycle time and a 15% increase in clients' LTV"
+          ]
+      },
+        {
+          "position": "Frontend Associate",
+          "company": "SIDEARM Sports",
+          "start_date": "2018",
+          "end_date": "",
+          "image": "https://pbs.twimg.com/profile_images/1544686838291595264/b9B_27Qj_400x400.png",
+          "responsibilities": [
+            "Provided programming support to over 1200 collegiate athlete website. I effectively communicated with customer support representatives who provided me with technical issues raised by clients and implemented accordingly.",
+            "Implemented ADA-compliant code written in HTML and C# for over 50% of the company’s portfolio, resulting in WCGAG AA compliance."
+          ]
+        },
+        {
+          "position": "Global Fellow",
+          "company": "Blackstone LaunchPad",
+          "start_date": "2016",
+          "end_date": "2017",
+          "image": "https://pbs.twimg.com/profile_images/422783721121411072/fhRFjoUm_400x400.jpeg",
+          "responsibilities": [
+            "Assisted the Director of BXLP SU in consulting to student-startups in different stages (ideation, acceleration, investment).",
+            "Prepared students for pitch competitions and guided founders to create investment-ready assets for their ventures, primarily business plan componentes. Three of those startups were funded with over $2M seed investments."
+          ]
+        },
+        {
+          "position": "Manager",
+          "company": "K&P",
+          "start_date": "2011",
+          "end_date": "2013",
+          "image": "https://pbs.twimg.com/profile_images/422783721121411072/fhRFjoUm_400x400.jpeg",
+          "responsibilities": [
+            "K&P is a family business in Israel which imported foods from Italy and Sweden and resold to large retailers and wholesalers.",
+            "Prepared students for pitch competitions and guided founders to create investment-ready assets for their ventures, primarily business plan componentes. Three of those startups were funded with over $2M seed investments.",
+            "Developed and implemented a cost-effective logistics strategy to optimize supply chain operations, reducing transportation costs by 15% and improving delivery times by 20% for K&P's Swedish food imports.",
+            "Successfully negotiated and executed a white labeling agreement with a large retailer, increasing brand exposure and revenue for K&P's imported food products."
+          ]
+        },
+        {
+          "position": "Commander, Sergent, Company Sergent Major",
+          "company": "Israel Defense Force",
+          "start_date": "2008",
+          "end_date": "2011",
+          "image": "https://pbs.twimg.com/profile_images/1460244034706935808/lBBT0_jC_400x400.jpg",
+          "responsibilities": [
+            "Served as Commander, Sergeant and Company Sergeant Major. I commanded 6 cycles of new recruits in different roles over the course of 3 years, leading and guiding hundreds of new recruits."
+          ]
+        }
+    ]
+}
