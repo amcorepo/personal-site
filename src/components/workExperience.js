@@ -55,16 +55,14 @@ function Experience({company, position, start_date, end_date, image, responsibil
 function WorkExperience() {
     return (
         <>
-        <Grid item>
+      
         <h3 style={{marginBottom: '1em'}}><i class="fa-solid fa-briefcase" style={{marginRight:"10px"}}></i>Work Experience</h3>
-        </Grid>
-        <Grid container item xs={12} md={10} direction="column">
+      
         {experienceData.map((experience, index) => (
-        <Grid item xs={12} key={index} className="experience">
-            <Experience company={experience.company} position={experience.position} start_date={experience.start_date} end_date={experience.end_date} image={experience.image} responsibilities={experience.responsibilities} />
-        </Grid>
+            <Experience key={index} company={experience.company} position={experience.position} start_date={experience.start_date} end_date={experience.end_date} image={experience.image} responsibilities={experience.responsibilities} />
+ 
         ))}
-        </Grid>
+       
         </>
     )
 }
