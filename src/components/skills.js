@@ -31,7 +31,7 @@ function MySkills() {
                 <h2 style={{marginBottom: '10px'}}>Skills</h2>
             </Grid>
         {skillData.map((skill, index) => (
-        <Grid item xs={12} sm={7} lg={12} key={index}>
+        <Grid item xs={12} sm={7} md={12} key={index}>
             <Skill name={skill.name} level={skill.level} iconClass={skill.icon} />
         </Grid>
         ))}

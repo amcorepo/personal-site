@@ -24,7 +24,7 @@ function Experience({company, position, start_date, end_date, image, responsibil
         }}
       >
         <TimelineItem>    
-            <TimelineOppositeContent color="textSecondary" fontSize={{xs: "0.7em", md: "1em"}} >
+            <TimelineOppositeContent color="textSecondary" fontSize={{xs: "0.7em", md: "1em"}} align="right" >
             {`${end_date} - ${start_date}`}
             </TimelineOppositeContent>
               <TimelineSeparator>     
@@ -52,7 +52,7 @@ function WorkExperience() {
     return (
         <>
         <h3 style={{marginBottom: '1em'}}>Work Experience</h3>
-        <Grid container item xs={12} lg={10} direction="column">
+        <Grid container item xs={12} md={10} direction="column">
         {experienceData.map((experience, index) => (
         <Grid item xs={12} sm={6} key={index} className="experience">
             <Experience  company={experience.company} position={experience.position} start_date={experience.start_date} end_date={experience.end_date} image={experience.image} responsibilities={experience.responsibilities} />

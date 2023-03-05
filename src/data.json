@@ -52,7 +52,7 @@
             "position": "Product Manager",
             "company": "Deloitte Digital",
             "start_date": "2020",
-            "end_date": "Present",
+            "end_date": "Now",
             "image": "https://pbs.twimg.com/profile_images/743060708565258241/wisiWqIz_400x400.jpg",
             "responsibilities": [
                 "Led product a 12-person cross-functional team in delivering a SaaS product, helping our clients adapt to new data protection regulations while maintaining advertising returns",
@@ -95,14 +95,24 @@
           ]
         },
         {
+          "position": "Owner",
+          "company": "Quickie Convenience Stores",
+          "start_date": "2013",
+          "end_date": "2016",
+          "image": "https://media.easy.co.il/images/UserThumbs/26245355_1549220397347.jpg",
+          "responsibilities": [
+            "Launched a weekly revenue stream that added a 10% recurring revenue for the firm",
+            "Successfully strategized and executed a digital strategy that included launching an ecommerce channel targeted at three universities located in the vicinity"
+          ]
+        },
+        {
           "position": "Manager",
           "company": "K&P",
           "start_date": "2011",
           "end_date": "2013",
-          "image": "https://pbs.twimg.com/profile_images/422783721121411072/fhRFjoUm_400x400.jpeg",
+          "image": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png",
           "responsibilities": [
             "K&P is a family business in Israel which imported foods from Italy and Sweden and resold to large retailers and wholesalers.",
-            "Prepared students for pitch competitions and guided founders to create investment-ready assets for their ventures, primarily business plan componentes. Three of those startups were funded with over $2M seed investments.",
             "Developed and implemented a cost-effective logistics strategy to optimize supply chain operations, reducing transportation costs by 15% and improving delivery times by 20% for K&P's Swedish food imports.",
             "Successfully negotiated and executed a white labeling agreement with a large retailer, increasing brand exposure and revenue for K&P's imported food products."
           ]
