@@ -6,7 +6,7 @@
             "phone": "123-456-7890",
             "address": "123 Main St, Anytown USA",
             "title": "Product Manager",
-            "profile": "I am a driven product creator with diverse experience in engineering, design, and business. My track record includes solving complex problems and navigating technical challenges using logic and self-learning. I love cooking Middle Eastern food, listening to music, and playing CS:GO in my free time."
+            "profile": "I am a driven product creator with diverse experience in engineering, design, and business. My track record includes solving complex problems and navigating technical challenges by applying logic and accelerated self-learnng. When I'm not thinking about problems, you will find me cooking Middle Eastern food, listening to music, or fragging n00bs in CS:GO ."
         }
     ],
     "education": [
@@ -61,11 +61,12 @@
         {
             "position": "Product Manager",
             "company": "Deloitte Digital",
+            "location": "New York, New York",
             "start_date": "2020",
             "end_date": "Now",
             "image": "https://pbs.twimg.com/profile_images/743060708565258241/wisiWqIz_400x400.jpg",
             "responsibilities": [
-                "Led product a 12-person cross-functional team in delivering a SaaS product, helping our clients adapt to new data protection regulations while maintaining advertising returns",
+                "Led product a 12-person cross-functional team in delivering a SaaS product, helping our clients adapt to new data protection regulations while maintaining advertising returns.",
                 "Led a 10-person team to transition an internal product from proof-of-concept to MVP in 3 months, to  deliver reliable and consistent actionable insights.",
                 "Owned product in an agile workstream for a healthcare Salesforce implementation project."
             ]
@@ -73,29 +74,32 @@
         {
           "position": "Co-Founder",
           "company": "quad",
+          "location": "Tel Aviv, Israel",
           "start_date": "2016",
           "end_date": "2020",
           "image": "https://media.licdn.com/dms/image/C4D0BAQGuhUcYnbsE6A/company-logo_200_200/0/1596358339384?e=1685577600&v=beta&t=jxYEcRRJrDKGHGLnFR_IjBohnonsf8szmjBkAHCf8lw",
           "responsibilities": [
-              "Managed end-to-end delivery of web services for 20+ clients in Europe and Israel, from concept to production",
-              "Designed and developed 12+ high-performing ecommerce experiences for businesses of various scales, using WordPress or Shopify to adapt to changing demand for custom solutions",
-              "Championed a user-centric approach to web development, resulting in a 20% reduction in cycle time and a 15% increase in clients' LTV"
+              "Managed end-to-end delivery of web services for 20+ clients in Europe and Israel, from concept to production.",
+              "Designed and developed 12+ high-performing ecommerce experiences for businesses of various scales, using WordPress or Shopify to adapt to changing demand for custom solutions.",
+              "Championed a user-centric approach to web development, resulting in a 20% reduction in cycle time and a 15% increase in clients' LTV."
           ]
       },
         {
           "position": "Frontend Associate",
           "company": "SIDEARM Sports",
+          "location": "Syracuse, New York",
           "start_date": "2018",
           "end_date": "",
           "image": "https://pbs.twimg.com/profile_images/1544686838291595264/b9B_27Qj_400x400.png",
           "responsibilities": [
-            "Provided programming support to over 1200 collegiate athlete website. I effectively communicated with customer support representatives who provided me with technical issues raised by clients and implemented accordingly.",
+            "Provided programming support to over 500+ collegiate athlete websites. I effectively communicated with customer support representatives who provided me with technical issues raised by clients and implemented accordingly.",
             "Implemented ADA-compliant code written in HTML and C# for over 50% of the company’s portfolio, resulting in WCGAG AA compliance."
           ]
         },
         {
           "position": "Global Fellow",
           "company": "Blackstone LaunchPad",
+          "location": "Syracuse, New York",
           "start_date": "2016",
           "end_date": "2017",
           "image": "https://pbs.twimg.com/profile_images/422783721121411072/fhRFjoUm_400x400.jpeg",
@@ -107,17 +111,19 @@
         {
           "position": "Co-Owner",
           "company": "Quickie Convenience Stores",
+          "location": "Tel Aviv, Israel",
           "start_date": "2013",
           "end_date": "2016",
           "image": "https://media.easy.co.il/images/UserThumbs/26245355_1549220397347.jpg",
           "responsibilities": [
-            "Launched a weekly revenue stream that added a 10% recurring revenue for the firm",
-            "Successfully strategized and executed a digital strategy that included launching an ecommerce channel targeted at three universities located in the vicinity"
+            "Launched a weekly revenue stream that added a 10% recurring revenue for the firm.",
+            "Successfully strategized and executed a digital strategy that included launching an ecommerce channel targeted at three universities located in the vicinity."
           ]
         },
         {
           "position": "Manager",
           "company": "K&P",
+          "location": "Tel Aviv, Israel",
           "start_date": "2011",
           "end_date": "2013",
           "image": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png",
@@ -137,5 +143,12 @@
             "Served as Commander, Sergeant and Company Sergeant Major. I commanded 6 cycles of new recruits in different roles over the course of 3 years, leading and guiding hundreds of new recruits."
           ]
         }
+    ],
+    "social": [
+      {
+        "linkedin": "https://www.linkedin.com/in/cohenamos/",
+        "github": "https://github.com/amcorepo",
+        "email": "mailto: mr.amoscohen@gmail.com"
+      }
     ]
 }
