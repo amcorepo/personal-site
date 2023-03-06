@@ -56,9 +56,9 @@ function WorkExperience() {
     return (
         <>
       
-        <h3 style={{marginBottom: '1em'}}><i className="fa-solid fa-briefcase" style={{marginRight:"10px"}}></i>Work Experience</h3>
+        <h3 style={{marginBottom: '1em'}} className="timeline-item"><i className="fa-solid fa-briefcase timeline-item" style={{marginRight:"10px"}}></i>Work Experience</h3>
         {experienceData.map((experience, index) => (
-          <Grid item key={index}>
+          <Grid item key={index} className="timeline-item">
             <Experience company={experience.company} position={experience.position} start_date={experience.start_date} end_date={experience.end_date} image={experience.image} responsibilities={experience.responsibilities} location={experience.location} />
           </Grid>
  
