@@ -5,7 +5,6 @@ import data from '../data.json';
 
 const socialData = data.social[0];
 const personalData = data.personal[0];
-console.log(socialData.linkedin)
 // function Skill({ name, level, iconClass }) {
 //     return (
 //       <Grid container spacing={0.5} sx={{marginBottom:'10px'}}>
