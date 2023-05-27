@@ -4,6 +4,7 @@ import React  from 'react';
 import data from '../data.json';
 
 const socialData = data.social[0];
+const personalData = data.personal[0];
 console.log(socialData.linkedin)
 // function Skill({ name, level, iconClass }) {
 //     return (
@@ -36,7 +37,7 @@ function MySocial() {
                     </a>
                 </Grid>
                 <Grid item>
-                    <a href={socialData.email} target="_blank" rel="noopener noreferrer" style={{color: 'white', fontSize: '1.5em'}}>
+                    <a href={personalData.email} target="_blank" rel="noopener noreferrer" style={{color: 'white', fontSize: '1.5em'}}>
                     <i className="fa-solid fa-at" ></i>
                     </a>
                 </Grid>

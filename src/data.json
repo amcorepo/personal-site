@@ -2,8 +2,8 @@
     "personal": [
         {
             "name": "Amos Cohen",
-            "email": "john.smith@example.com",
-            "phone": "123-456-7890",
+            "email": "mailto: mr.amoscohen@gmail.com",
+            "phone": "917-287-9820",
             "address": "123 Main St, Anytown USA",
             "title": "Product Manager",
             "profile": "I am a driven product creator with diverse experience in engineering, design, and business. My track record includes solving complex problems and navigating technical challenges by applying logic and accelerated self-learning. When I'm not thinking about problems, you will find me cooking Middle Eastern food, listening to music, or fragging n00bs in CS:GO."
@@ -147,8 +147,7 @@
     "social": [
       {
         "linkedin": "https://www.linkedin.com/in/cohenamos/",
-        "github": "https://github.com/amcorepo",
-        "email": "mailto: mr.amoscohen@gmail.com"
+        "github": "https://github.com/amcorepo"
       }
     ]
 }
