@@ -1,5 +1,6 @@
-
-
+::-webkit-scrollbar {
+  display: none;
+}
 
 header, body {
   font-family: 'Open Sans', sans-serif;
