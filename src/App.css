@@ -2,6 +2,10 @@
   display: none;
 }
 
+p, li {
+  font-size: 0.7em;
+}
+
 header, body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -88,6 +92,11 @@ a {margin-right:0.5em}
 }
 .timeline-item:nth-child(7) {
   animation-delay: 0.7s;
+}
+@media screen and (min-width: 1280px) {
+  .thought-title {
+  font-size: 15px !important;
+}
 }
 @keyframes swipe-down {
   from {

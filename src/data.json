@@ -63,7 +63,7 @@
             "company": "Deloitte Digital",
             "location": "New York, New York",
             "start_date": "2020",
-            "end_date": "Now",
+            "end_date": "2023",
             "image": "https://pbs.twimg.com/profile_images/743060708565258241/wisiWqIz_400x400.jpg",
             "responsibilities": [
                 "Led product a 12-person cross-functional team in delivering a SaaS product, helping our clients adapt to new data protection regulations while maintaining advertising returns.",
@@ -77,7 +77,7 @@
           "location": "Tel Aviv, Israel",
           "start_date": "2016",
           "end_date": "2020",
-          "image": "https://media.licdn.com/dms/image/C4D0BAQGuhUcYnbsE6A/company-logo_200_200/0/1596358339384?e=1685577600&v=beta&t=jxYEcRRJrDKGHGLnFR_IjBohnonsf8szmjBkAHCf8lw",
+          "image": "/workplaceholder.svg",
           "responsibilities": [
               "Managed end-to-end delivery of web services for 20+ clients in Europe and Israel, from concept to production.",
               "Designed and developed 12+ high-performing ecommerce experiences for businesses of various scales, using WordPress or Shopify to adapt to changing demand for custom solutions.",
@@ -90,7 +90,7 @@
           "location": "Syracuse, New York",
           "start_date": "2018",
           "end_date": "",
-          "image": "https://pbs.twimg.com/profile_images/1544686838291595264/b9B_27Qj_400x400.png",
+          "image": "/workplaceholder.svg",
           "responsibilities": [
             "Provided programming support to over 500+ collegiate athlete websites. I effectively communicated with customer support representatives who provided me with technical issues raised by clients and implemented accordingly.",
             "Implemented ADA-compliant code written in HTML and C# for over 50% of the company’s portfolio, resulting in WCGAG AA compliance."
@@ -126,7 +126,7 @@
           "location": "Tel Aviv, Israel",
           "start_date": "2011",
           "end_date": "2013",
-          "image": "https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png",
+          "image": "/workplaceholder.svg",
           "responsibilities": [
             "K&P is a family business in Israel which imported foods from Italy and Sweden and resold to large retailers and wholesalers.",
             "Developed and implemented a cost-effective logistics strategy to optimize supply chain operations, reducing transportation costs by 15% and improving delivery times by 20% for K&P's Swedish food imports.",
@@ -134,7 +134,7 @@
           ]
         },
         {
-          "position": "Commander, Sergent, Company Sergent Major",
+          "position": "Commander, Sergeant, Company Sergeant Major",
           "company": "Israel Defense Force",
           "start_date": "2008",
           "end_date": "2011",

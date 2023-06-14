@@ -34,7 +34,7 @@ function MyPersonal() {
             {/* <Grid item id="title"><h2>{personalData.title}</h2></Grid> */}
         </Grid>
         
-        <Grid item sx={{fontSize: {xs: '0.75rem', xl: '1rem'}}}><p>{personalData.profile}</p></Grid>
+        <Grid item><p style={{fontSize: '0.9rem'}}>{personalData.profile}</p></Grid>
 
     </Grid>
     </>
