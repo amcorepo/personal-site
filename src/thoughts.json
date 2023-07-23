@@ -1,22 +1,14 @@
 {
     "thoughts": [
         {
-            "title": "A Winning Tech Team",
-            "description": "Skills are not enough to foster success in tech teams.",
-            "image": "/winningteam.jpg",
-            "imageAlt": "image alt",
+            "title": "Product Management Trifecta",
+            "description": "I believe that product managers should speak three “languages”: design, development, and business.",
+            "image": "/productmanager.jpg",
+            "imageAlt": "Product Manager Trifecta",
             "content": "content",
             "category": "category",
-            "date": "date"
-        },
-        {
-            "title": "Retailer's eComm Fallacy",
-            "description": "Why retailers often fail when moving or enhancing their business to the digital world.",
-            "image": "/ecommfallacy.jpg",
-            "imageAlt": "image alt",
-            "content": "content",
-            "category": "category",
-            "date": "date"
+            "date": "date",
+            "link": "https://medium.com/@mr.amoscohen/a-product-manager-is-a-translator-796b26a78792"
         },
         {
             "title": "A Winning Tech Team",
@@ -25,7 +17,8 @@
             "imageAlt": "image alt",
             "content": "content",
             "category": "category",
-            "date": "date"
+            "date": "date",
+            "link": ""
         },
         {
             "title": "Retailer's eComm Fallacy",
@@ -34,79 +27,8 @@
             "imageAlt": "image alt",
             "content": "content",
             "category": "category",
-            "date": "date"
-        },
-        {
-            "title": "A Winning Tech Team",
-            "description": "Skills are not enough to foster success in tech teams.",
-            "image": "/winningteam.jpg",
-            "imageAlt": "image alt",
-            "content": "content",
-            "category": "category",
-            "date": "date"
-        },
-        {
-            "title": "Retailer's eComm Fallacy",
-            "description": "Why retailers often fail when moving or enhancing their business to the digital world.",
-            "image": "/ecommfallacy.jpg",
-            "imageAlt": "image alt",
-            "content": "content",
-            "category": "category",
-            "date": "date"
-        },
-        {
-            "title": "A Winning Tech Team",
-            "description": "Skills are not enough to foster success in tech teams.",
-            "image": "/winningteam.jpg",
-            "imageAlt": "image alt",
-            "content": "content",
-            "category": "category",
-            "date": "date"
-        },
-        {
-            "title": "Retailer's eComm Fallacy",
-            "description": "Why retailers often fail when moving or enhancing their business to the digital world.",
-            "image": "/ecommfallacy.jpg",
-            "imageAlt": "image alt",
-            "content": "content",
-            "category": "category",
-            "date": "date"
-        },
-        {
-            "title": "A Winning Tech Team",
-            "description": "Skills are not enough to foster success in tech teams.",
-            "image": "/winningteam.jpg",
-            "imageAlt": "image alt",
-            "content": "content",
-            "category": "category",
-            "date": "date"
-        },
-        {
-            "title": "Retailer's eComm Fallacy",
-            "description": "Why retailers often fail when moving or enhancing their business to the digital world.",
-            "image": "/ecommfallacy.jpg",
-            "imageAlt": "image alt",
-            "content": "content",
-            "category": "category",
-            "date": "date"
-        },
-        {
-            "title": "A Winning Tech Team",
-            "description": "Skills are not enough to foster success in tech teams.",
-            "image": "/winningteam.jpg",
-            "imageAlt": "image alt",
-            "content": "content",
-            "category": "category",
-            "date": "date"
-        },
-        {
-            "title": "Retailer's eComm Fallacy",
-            "description": "Why retailers often fail when moving or enhancing their business to the digital world.",
-            "image": "/ecommfallacy.jpg",
-            "imageAlt": "image alt",
-            "content": "content",
-            "category": "category",
-            "date": "date"
+            "date": "date",
+            "link": ""
         }
     ]
 }
