@@ -2,11 +2,10 @@
     "personal": [
         {
             "name": "Amos Cohen",
-            "email": "mailto: mr.amoscohen@gmail.com",
-            "phone": "917-287-9820",
-            "address": "123 Main St, Anytown USA",
+            "email": "mr.amoscohen@gmail.com",
+            "phone": "+972-54-226-3481",
             "title": "Product Manager",
-            "profile": "I am a driven product creator with diverse experience in engineering, design, and business. My track record includes solving complex problems and navigating technical challenges by applying logic and accelerated self-learning. When I'm not thinking about problems, you will find me cooking Middle Eastern food, listening to music, or fragging n00bs in CS:GO."
+            "profile": "I am a driven product creator with diverse experience in engineering, design, and business. My track record includes solving complex problems and navigating technical challenges by applying analytical thinking, logic, and accelerated self-learning. When I'm not thinking about problems, you will find me cooking Middle Eastern food, listening to music, or fragging n00bs in CS:GO."
         }
     ],
     "education": [
@@ -62,15 +61,26 @@
             "position": "Product Manager",
             "company": "Deloitte Digital",
             "location": "New York, New York",
-            "start_date": "2020",
+            "start_date": "2022",
             "end_date": "2023",
             "image": "https://pbs.twimg.com/profile_images/743060708565258241/wisiWqIz_400x400.jpg",
             "responsibilities": [
-                "Led product a 12-person cross-functional team in delivering a SaaS product, helping our clients adapt to new data protection regulations while maintaining advertising returns.",
-                "Led a 10-person team to transition an internal product from proof-of-concept to MVP in 3 months, to  deliver reliable and consistent actionable insights.",
-                "Owned product in an agile workstream for a healthcare Salesforce implementation project."
+                "Crafted a vision and strategy, translated strategy to a backlog, staffed a cross-functional scrum including a junior PM, engaged with executives to approve internal budget, and supervised day-to-day operations as a product lead to transition an automated tool that benchmarks the quality and competitiveness of web pages from proof-of-concept to MVP.  Supported 40+ sales pursuits and helped convert 7 of them to $4M+ in revenue.",
+                "Identified an internal unmet need, assembled a cross-functional team, and created a vision and strategy as a project lead to launch an internal qualitative intelligence platform. Post proof-of-concept, product received internal funding to facilitate client-facing use cases."
             ]
         },
+        {
+          "position": "Product Owner",
+          "company": "Deloitte Digital",
+          "location": "New York, New York",
+          "start_date": "2020",
+          "end_date": "2021",
+          "image": "https://pbs.twimg.com/profile_images/743060708565258241/wisiWqIz_400x400.jpg",
+          "responsibilities": [
+              "Created user stories, defined technical requirements, and groomed epics with a cross-functional scrum as a product owner to deliver features from inception to production in an agile workstream for a healthcare Salesforce implementation project.",
+              "Drove scrum ceremonies, gathered and prioritized feature requirements, managed JIRA, conducted QA, and owned UI/UX as a product manager in a 12-person cross-functional scrum to deliver SaaS MVP aimed at helping clients adapt to new data protection regulations while maintaining advertising returns. Led a demo to a strategic partner in the tech industry which unlocked $700K of investment."
+          ]
+      },
         {
           "position": "Co-Founder",
           "company": "quad",
@@ -79,9 +89,9 @@
           "end_date": "2020",
           "image": "/quad.jpeg",
           "responsibilities": [
-              "Managed end-to-end delivery of web services for 20+ clients in Europe and Israel, from concept to production.",
-              "Designed and developed 12+ high-performing ecommerce experiences for businesses of various scales, using WordPress or Shopify to adapt to changing demand for custom solutions.",
-              "Championed a user-centric approach to web development, resulting in a 20% reduction in cycle time and a 15% increase in clients' LTV."
+              "Managed end-to-end web implementation projects for 20+ clients in Israel, from concept to production.",
+              "Designed and developed 12+ ecommerce experiences for small businesses using WordPress and Shopify to adapt to changing demand for custom solutions.",
+              "Championed a lean approach to onboard retail experiences online using an iterative approach (build-measure-learn feedback loop)."
           ]
       },
         {
@@ -92,8 +102,8 @@
           "end_date": "",
           "image": "/sidearm.jpeg",
           "responsibilities": [
-            "Provided programming support to over 500+ collegiate athlete websites. I effectively communicated with customer support representatives who provided me with technical issues raised by clients and implemented accordingly.",
-            "Implemented ADA-compliant code written in HTML and C# for over 50% of the company’s portfolio, resulting in WCGAG AA compliance."
+            "Provided programming support to over 500+ collegiate athlete websites and successffully implemented customer support issues.",
+            "Implemented ADA-compliant code written in HTML and C# for over 50% of the company’s portfolio, resulting in WCAG AA compliance."
           ]
         },
         {
@@ -104,8 +114,8 @@
           "end_date": "2017",
           "image": "https://pbs.twimg.com/profile_images/422783721121411072/fhRFjoUm_400x400.jpeg",
           "responsibilities": [
-            "Assisted the Director of BXLP SU in consulting to student-startups in different stages (ideation, acceleration, investment).",
-            "Prepared students for pitch competitions and guided founders to create investment-ready assets for their ventures, primarily business plan componentes. Three of those startups were funded with over $2M seed investments."
+            "Consulted to student-startups in different stages (ideation, acceleration, investment).",
+            "Prepared students for pitch competitions and guided founders to create investment-ready assets for their ventures. Three of those startups were funded with over $2M seed investments."
           ]
         },
         {
@@ -117,20 +127,7 @@
           "image": "https://media.easy.co.il/images/UserThumbs/26245355_1549220397347.jpg",
           "responsibilities": [
             "Launched a weekly revenue stream that added a 10% recurring revenue for the firm.",
-            "Successfully strategized and executed a digital strategy that included launching an ecommerce channel targeted at three universities located in the vicinity."
-          ]
-        },
-        {
-          "position": "Manager",
-          "company": "K&P",
-          "location": "Tel Aviv, Israel",
-          "start_date": "2011",
-          "end_date": "2013",
-          "image": "/workplaceholder.svg",
-          "responsibilities": [
-            "K&P is a family business in Israel which imported foods from Italy and Sweden and resold to large retailers and wholesalers.",
-            "Developed and implemented a cost-effective logistics strategy to optimize supply chain operations, reducing transportation costs by 15% and improving delivery times by 20% for K&P's Swedish food imports.",
-            "Successfully negotiated and executed a white labeling agreement with a large retailer, increasing brand exposure and revenue for K&P's imported food products."
+            "Created and executed a digital strategy that included launching an ecommerce channel targeted at three universities located in the vicinity."
           ]
         },
         {

@@ -26,7 +26,6 @@ function MyPersonal() {
                     cursorClassName: 'title'
                 }}
                 />
-
             </Grid>
             <Grid container item xs={12}>
                 <MySocial/>
@@ -34,7 +33,7 @@ function MyPersonal() {
             {/* <Grid item id="title"><h2>{personalData.title}</h2></Grid> */}
         </Grid>
         
-        <Grid item><p style={{fontSize: '0.9rem'}}>{personalData.profile}</p></Grid>
+        <Grid item xs={12} sm={8} md={12}><p style={{fontSize: '0.9rem'}}>{personalData.profile}</p></Grid>
 
     </Grid>
     </>

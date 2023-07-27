@@ -3,7 +3,7 @@ import React from 'react';
 import MySkills from './skills.js';
 import MyEducation from './education.js';
 import MyPersonal from './personal.js';
-
+import MyContact from './contact.js';
 
 function SideContent() { 
   return (
@@ -17,6 +17,9 @@ function SideContent() {
         </Grid>
         <Grid container item>
             <MySkills/>
+        </Grid>
+        <Grid container item>
+          <MyContact/>
         </Grid>
     </Grid>
   )

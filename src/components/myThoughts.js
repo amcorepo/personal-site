@@ -14,7 +14,7 @@ const thoughtsData = thoughts.thoughts;
 function Thought({title, description, image, imageAlt, link}) {
   if (link != "") {
     return (
-    <Card sx={{ display: 'flex', flexDirection: 'row', height: {xs: '100%', xl: '125px'}, width: '100%'}}>
+    <Card className="thoughtcard" sx={{ display: 'flex', flexDirection: 'row', height: {xs: '100%', xl: '125px'}, width: '100%'}}>
         <Grid item xs={12} md={4}>
           <CardMedia
             component="img"
@@ -23,9 +23,9 @@ function Thought({title, description, image, imageAlt, link}) {
             height="100%"
           />
         </Grid>
-        <Grid item xs={12} md={8} sx={{display: 'flex',justifyContent: 'center'}}>
-          <CardContent sx={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'space-between', flex: '1', padding: '16px'}}>
-            <Typography variant="body1" style={{marginBottom: '5px', fontSize: '0.9em' }}>
+        <Grid container item xs={12} md={8}>
+          <CardContent className="cardcontent" sx={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'space-between', flex: '1', padding: '16px'}}>
+            <Typography variant="body1" style={{fontSize: '0.9em' }}>
               {title}
             </Typography>
             <Typography variant="body2" color="text.secondary" sx={{fontSize: '0.7em'}}>

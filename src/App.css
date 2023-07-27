@@ -42,7 +42,6 @@ img {box-shadow: 0px 1px 1px 0px #000;}
 h3 {font-size:1.5em; font-weight:700;}
 #education .hehe {font-style:italic}
 #title h2 {font-weight:300;}
-#title {margin-bottom:1em;}
 .title {font-size:1.2em;}
 .css-1btsylr-MuiTimeline-root .MuiTimelineOppositeContent-root, .css-1btsylr-MuiTimeline-root {padding-left:0 !important;}
 .sidecat {opacity:0;animation: sidebar-enter 0.5s ease-out forwards }
@@ -61,9 +60,15 @@ h3 {font-size:1.5em; font-weight:700;}
 
 #personal.sidecat {animation-delay: 0.02s}
 #education.sidecat {animation-delay: 0.04s}
-#skills.sidecat {animation-delay: 0.06  s}
+#skills.sidecat {animation-delay: 0.06s}
+#contact.sidecat {animation-delay: 0.08s}
 a {margin-right:0.5em}
-
+.cardcontent:last-child {
+ padding-bottom: 16px !important;
+}
+.MuiGrid-container.MuiGrid-item .thoughtcard {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
 
 .timeline-item {
   opacity: 0;
@@ -94,7 +99,6 @@ a {margin-right:0.5em}
 .timeline-item:nth-child(7) {
   animation-delay: 0.7s;
 }
-
 @keyframes swipe-down {
   from {
     opacity: 0;

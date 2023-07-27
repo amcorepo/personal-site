@@ -36,7 +36,7 @@ function MySocial() {
                     </a>
                 </Grid>
                 <Grid item>
-                    <a href={personalData.email} target="_blank" rel="noopener noreferrer" style={{color: 'white', fontSize: '1.5em'}}>
+                    <a href={"mailto:"+personalData.email} target="_blank" rel="noopener noreferrer" style={{color: 'white', fontSize: '1.5em'}}>
                     <i className="fa-solid fa-at" ></i>
                     </a>
                 </Grid>
