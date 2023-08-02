@@ -1,9 +1,6 @@
 
 import Grid from '@mui/material/Grid';
 import React  from 'react';
-import data from '../data.json';
-
-const skillData = data.skills;
 
 function Skill({ name, level, iconClass }) {
     return (
@@ -18,7 +15,7 @@ function Skill({ name, level, iconClass }) {
       
     );
   }
-function MySkills() {
+function MySkills(props) {
     return (
         <>  
         <Grid container id="skills" className="sidecat">
@@ -26,7 +23,7 @@ function MySkills() {
             <h3 style={{marginBottom: '10px'}}><i className="fa-solid fa-certificate" style={{marginRight:"10px"}}></i>Skills</h3>
             </Grid>
             <Grid container spacing={1.5} item>
-                {skillData.map((skill, index) => (
+                {props.skills.map((skill, index) => (
                     <Grid item key={index} >
                         <Skill name={skill.name} level={skill.level} iconClass={skill.icon} />
                     </Grid>

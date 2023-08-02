@@ -5,21 +5,21 @@ import MyEducation from './education.js';
 import MyPersonal from './personal.js';
 import MyContact from './contact.js';
 
-function SideContent() { 
+function SideContent(props) { 
   return (
     
     <Grid container direction="column" spacing={4}>
         <Grid item>
-            <MyPersonal />
+            <MyPersonal personal={props.personal} />
         </Grid>
         <Grid container spacing={1} item direction="column" id="education" className="sidecat">
-            <MyEducation/>
+            <MyEducation education={props.education}/>
         </Grid>
         <Grid container item>
-            <MySkills/>
+            <MySkills skills={props.skills}/>
         </Grid>
         <Grid container item>
-          <MyContact/>
+          <MyContact contact={props.personal}/>
         </Grid>
     </Grid>
   )

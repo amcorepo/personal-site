@@ -5,11 +5,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import thoughts from '../thoughts.json';
 import Grid from '@mui/material/Grid';
 
 
-const thoughtsData = thoughts.thoughts;
+
 
 function Thought({title, description, image, imageAlt, link}) {
   if (link != "") {
@@ -41,16 +40,22 @@ function Thought({title, description, image, imageAlt, link}) {
   }
 }
 
-function MyThoughts() {
+function MyThoughts(props) {
     return (
         <>
         <h3 style={{marginBottom: '1em', color: 'white'}} className="timeline-item"><i className="fa-regular fa-lightbulb timeline-item" style={{marginRight:"10px"}}></i>Thoughts</h3>
         <Grid container spacing={1}>
-          {thoughtsData.map((thought, index) => (
+          {props.thoughts.map((thought, index) => 
           <Grid container item key={index} xs={12} sm={6} md={12}>
-            <Thought image={thought.image} imageAlt={thought.imageAlt} title={thought.title} description={thought.description} category={thought.category} date={thought.date} link={thought.link} />
+            <Thought 
+            image={thought.image}
+            imageAlt={thought.imageAlt}
+            title={thought.title}
+            description={thought.description}
+            link={thought.link}
+            />
           </Grid>
-          ))}
+          )}
        </Grid>
         </>
     )

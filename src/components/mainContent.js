@@ -3,8 +3,8 @@ import WorkExperience from './workExperience.js';
 import data from '../data.json';
 
 
-export default function MainContent() {
+export default function MainContent(props) {
   return (
-        <WorkExperience/>
+        <WorkExperience experience={props.experience}/>
   );
 }

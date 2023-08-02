@@ -9,7 +9,7 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent, {
   timelineOppositeContentClasses,
 } from '@mui/lab/TimelineOppositeContent';
-const experienceData = data.experience;
+
 
 
 function Experience({company, position, start_date, end_date, image, location, responsibilities}) {
@@ -52,12 +52,12 @@ function Experience({company, position, start_date, end_date, image, location, r
     );
   }
 
-function WorkExperience() {
+function WorkExperience(props) {
     return (
         <>
       
         <h3 style={{marginBottom: '1em'}} className="timeline-item"><i className="fa-solid fa-briefcase timeline-item" style={{marginRight:"10px"}}></i>Work Experience</h3>
-        {experienceData.map((experience, index) => (
+        {props.experience.map((experience, index) => (
           <Grid item key={index} className="timeline-item">
             <Experience company={experience.company} position={experience.position} start_date={experience.start_date} end_date={experience.end_date} image={experience.image} responsibilities={experience.responsibilities} location={experience.location} />
           </Grid>
