@@ -13,7 +13,7 @@ import Grid from '@mui/material/Grid';
 function Thought({title, description, image, imageAlt, link}) {
   if (link != "") {
     return (
-    <Card className="thoughtcard" sx={{ display: 'flex', flexDirection: 'row', height: {xs: '100%', xl: '125px'}, width: '100%'}}>
+    <Card className="thoughtcard" sx={{ display: 'flex', flexDirection: 'row', height: "100%", width: '100%'}}>
         <Grid item xs={12} md={4}>
           <CardMedia
             component="img"
@@ -23,7 +23,7 @@ function Thought({title, description, image, imageAlt, link}) {
           />
         </Grid>
         <Grid container item xs={12} md={8}>
-          <CardContent className="cardcontent" sx={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'space-between', flex: '1', padding: '16px'}}>
+          <CardContent className="cardcontent" sx={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center', flex: '1', padding: '16px'}}>
             <Typography variant="body1" style={{fontSize: '0.9em' }}>
               {title}
             </Typography>
