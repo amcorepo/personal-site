@@ -8,17 +8,17 @@ import MyContact from './contact.js';
 function SideContent(props) { 
   return (
     
-    <Grid container direction="column" spacing={4}>
-        <Grid item>
-            <MyPersonal personal={props.personal} />
+    <Grid container spacing={4}>
+        <Grid item xs={12} >
+            <MyPersonal  personal={props.personal} />
         </Grid>
-        <Grid container spacing={1} item direction="column" id="education" className="sidecat">
+        <Grid spacing={1} xs={12} sm={4} md={12} item id="education" className="sidecat">
             <MyEducation education={props.education}/>
         </Grid>
-        <Grid container item>
+        <Grid item xs={12} sm={4} md={12} id="skills" className="sidecat">
             <MySkills skills={props.skills}/>
         </Grid>
-        <Grid container item>
+        <Grid item xs={12} sm={4} md={12} id="contact" className="sidecat">
           <MyContact contact={props.personal}/>
         </Grid>
     </Grid>

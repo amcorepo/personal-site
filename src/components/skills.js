@@ -18,7 +18,6 @@ function Skill({ name, level, iconClass }) {
 function MySkills(props) {
     return (
         <>  
-        <Grid container id="skills" className="sidecat">
             <Grid item xs={12}>
             <h3 style={{marginBottom: '10px'}}><i className="fa-solid fa-certificate" style={{marginRight:"10px"}}></i>Skills</h3>
             </Grid>
@@ -29,7 +28,6 @@ function MySkills(props) {
                     </Grid>
                 ))}
             </Grid>
-        </Grid>
         </>
     )
 }
