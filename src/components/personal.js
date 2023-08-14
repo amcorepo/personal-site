@@ -19,7 +19,7 @@ function MyPersonal(props) {
             <Grid item id="title" xs={12}>
             <Typewriter
                 options={{
-                    strings: ['Co-Founder','Frontend', 'UX', 'Problem Solver', 'Creator', 'Product Manager'],
+                    strings: ['Co-Founder','Frontend', 'UX', 'Problem Solver', 'Creator', 'Consultant', 'Product Manager'],
                     autoStart: true,
                     loop: true,
                     wrapperClassName: 'title',
