@@ -18,7 +18,7 @@ function Experience({company, position, start_date, end_date, image, location, r
   <Timeline
         sx={{
           [`& .${timelineOppositeContentClasses.root}`]: {
-            flex: 0.07, textAlign: 'left', paddingLeft:0
+            flex: 0, textAlign: 'left', paddingLeft:0
           }, paddingLeft:0
         }}
       >
