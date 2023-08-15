@@ -5,7 +5,7 @@
             "email": "mr.amoscohen@gmail.com",
             "phone": "+972-54-226-3481",
             "title": "Product Manager",
-            "profile": "I am a driven product creator with diverse experience in engineering, design, and business. My track record includes solving complex problems and navigating technical challenges by applying analytical thinking, logic, and accelerated self-learning. When I'm not thinking about problems, you will find me cooking Middle Eastern food, listening to music, or fragging n00bs in CS:GO."
+            "profile": "I am a driven product creator with diverse experience in engineering, design, business, and management consulting. My track record includes solving complex problems and navigating technical challenges by applying analytical thinking, logic, and accelerated self-learning. When I'm not thinking about problems, you will find me cooking Middle Eastern food, listening to music, or fragging n00bs in CS:GO."
         }
     ],
     "education": [
@@ -58,19 +58,21 @@
     ],
     "experience": [
         {
-            "position": "Product Manager",
+            "position": "Business Technology Consultant / Product Manager",
             "company": "Deloitte Digital",
             "location": "New York, New York",
             "start_date": "2022",
             "end_date": "2023",
             "image": "https://pbs.twimg.com/profile_images/743060708565258241/wisiWqIz_400x400.jpg",
             "responsibilities": [
-                "Crafted a vision and strategy, translated strategy to a backlog, staffed a cross-functional scrum including a junior PM, engaged with executives to approve internal budget, and supervised day-to-day operations as a product lead to transition an automated tool that benchmarks the quality and competitiveness of web pages from proof-of-concept to MVP.  Supported 40+ sales pursuits and helped convert 7 of them to $4M+ in revenue.",
-                "Identified an internal unmet need, assembled a cross-functional team, and created a vision and strategy as a project lead to launch an internal qualitative intelligence platform. Post proof-of-concept, product received internal funding to facilitate client-facing use cases."
+                "Crafted a vision and strategy, translated strategy to a backlog, staffed a cross-functional scrum including a junior PM, engaged with executives to approve internal budget, and supervised day-to-day operations as a product lead.",
+                "Transitioned an automated tool that benchmarks the quality and competitiveness of web pages from proof-of-concept to MVP.  Supported 40+ sales pursuits and helped convert 7 of them to $4M+ in revenue.",
+                "Identified an internal unmet need, assembled a cross-functional team, and created a vision and strategy as a project lead to launch an internal qualitative intelligence platform. Post proof-of-concept, product received internal funding to facilitate client-facing use cases.",
+                "Created an analytics strategy and measurement standards as a product manager to a precision agrilculture program focused on delivering intelligence to farmers around the world by utilizing data science and machine learning. Helped reduce manual analytics collection and increase efficiency in measuring their mobile application usage."
             ]
         },
         {
-          "position": "Product Owner",
+          "position": "Business Technology Analyst / Product Owner",
           "company": "Deloitte Digital",
           "location": "New York, New York",
           "start_date": "2020",
@@ -78,7 +80,8 @@
           "image": "https://pbs.twimg.com/profile_images/743060708565258241/wisiWqIz_400x400.jpg",
           "responsibilities": [
               "Created user stories, defined technical requirements, and groomed epics with a cross-functional scrum as a product owner to deliver features from inception to production in an agile workstream for a healthcare Salesforce implementation project.",
-              "Drove scrum ceremonies, gathered and prioritized feature requirements, managed JIRA, conducted QA, and owned UI/UX as a product manager in a 12-person cross-functional scrum to deliver SaaS MVP aimed at helping clients adapt to new data protection regulations while maintaining advertising returns. Led a demo to a strategic partner in the tech industry which unlocked $700K of investment."
+              "Drove scrum ceremonies, gathered and prioritized feature requirements, managed JIRA, conducted QA, and owned UI/UX as a product manager in a 12-person cross-functional scrum.",
+               "Delivered SaaS MVP aimed at helping clients adapt to new data protection regulations while maintaining advertising returns. Led a demo to a strategic partner in the tech industry which unlocked $700K of investment."
           ]
       },
         {
